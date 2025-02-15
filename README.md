@@ -1,16 +1,16 @@
 /realtime-chat-app
-│── /backend       # ฝั่งเซิร์ฟเวอร์ (Node.js + Express + MySQL)
-│   │── server.js  # ไฟล์หลักของ Backend
-│   │── .env       # เก็บค่าตัวแปรแวดล้อม เช่น พอร์ต ฐานข้อมูล
-│   │── package.json # เก็บแพ็คเกจที่ใช้ใน Backend
-│   └── /db        # ไฟล์ที่ใช้สร้างฐานข้อมูล
-│       └── init.sql
+│── /backend       # Server-side code (Node.js + Express + MySQL)
+│   │── server.js  # Main backend file
+│   │── .env       # Environment variables (e.g., database, port)
+│   │── package.json # Backend dependencies and scripts
+│   └── /db        # Database initialization files
+│       └── init.sql # SQL queries to initialize the database
 │
-└── /frontend      # ฝั่งหน้าเว็บ (React + Tailwind + Socket.io Client)
+└── /frontend      # Frontend code (React + Tailwind + Socket.io Client)
     │── /src
-    │   │── App.js  # ไฟล์หลักของ Frontend
-    │   │── index.js # ไฟล์เริ่มต้นของ React
-    │   └── styles.css
-    │── package.json
+    │   │── App.js  # Main frontend component
+    │   │── index.js # React entry point
+    │   └── styles.css # Tailwind styles
+    │── package.json # Frontend dependencies and scripts
     └── public
-        └── index.html
+        └── index.html # HTML template for the React app
