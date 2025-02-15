@@ -11,6 +11,6 @@
        -  App.js  
        - index.js 
        - styles.css 
-      -  package.json 
-    - public
+   -  package.json
+   - public
         - index.html 
