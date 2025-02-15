@@ -1,6 +1,6 @@
 #  realtime-chat-app
 - backend       # Server-side code (Node.js + Express + MySQL)
-│   │── server.js  # Main backend file
+   - server.js  # Main backend file
 │   │── .env       # Environment variables (e.g., database, port)
 │   │── package.json # Backend dependencies and scripts
 │   └── /db        # Database initialization files
